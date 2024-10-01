@@ -1,0 +1,39 @@
+body{
+    background-color: darksalmon;
+    padding: 20px;
+    margin: 0;
+    font-family: sans-serif;
+}
+.todo-container{
+    margin: auto;
+    padding: 20px;
+    background-color: lightcyan;
+    max-width: 400px;
+}
+h1{
+    text-align:center;
+}
+ul{
+    padding:0;
+}
+input{
+    padding: 10px;
+    margin: 10px 5px 10px 0;
+}
+li{
+    padding: 10px;
+    justify-content: space-between;
+    display:flex;
+}
+.delete-button{
+    background-color: darkred;
+    color: azure;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.add-button{
+    background-color: chartreuse;
+    color: azure;
+    padding: 10px;
+    border-radius: 5px;
+}
